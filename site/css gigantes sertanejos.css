@@ -1,0 +1,37 @@
+h1{/*color escolhe a cor da fonte h1*/
+   color: rgb(0, 0, 0);
+   /*front-family escolhe a fonte do h1*/
+    font-family: Arial;
+   /*font-size escolhe tamanho da fonte h1*/ 
+    font-size: 40px;
+    /*text-align alinha o texto no centro*/
+    text-align: center;
+    
+  }
+  h3 {/*color escolhe a cor da fonte h3*/ 
+    color: green;
+     /*front-family escolhe a fonte do h3*/
+    font-family: arial;
+    /*font-size escolhe tamanho da fonte h1*/
+    font-size: 22px;
+  }
+  h4{ /*color escolhe a cor da fonte h4*/ 
+    color: rgb(0, 0, 0);
+    /*front-family escolhe a fonte do h4*/
+    front-family: arial;
+     /*font-size escolhe tamanho da fonte h4*/
+    front-size: 12px;
+  }
+  img{/* img configura o tamanho das imagens do html */ 
+    width: 300px;
+    height: 300px;
+  }
+  body{/* background-color configura a cor de fundo da página para branca*/
+    background-color: rgb(255, 255, 255);
+  }
+  img{ /* essa parte faz o efeito de animação nas imagens ao passar com o mouse por cima*/
+    transition: transform 0.3s ease;
+  }
+  img:hover{
+    transform: scale(1.1);
+  }
